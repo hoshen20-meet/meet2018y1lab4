@@ -1,0 +1,15 @@
+import turtle # python needs this to use all the turtle functions
+turtle.shape('square') # changes the shape to a square
+finn = turtle.clone()
+finn.shape('turtle')
+finn.goto(100,100)
+finn.goto(0,100)
+finn.goto(0,0)
+finn.goto(100,0)
+finn.goto(100,100)
+turtle.penup()
+finn.penup()
+finn.goto(300,300)
+finn.pendown()
+finn.stamp()
+finn.goto(100,100)
